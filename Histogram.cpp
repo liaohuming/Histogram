@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		cout << counter << endl;
 		ofs << counter << endl;
 	}
-
+	ofs.close();
 	
 	cout << "end" << endl;
 	//cout << lifeVector.size() << endl;
